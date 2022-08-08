@@ -24,33 +24,33 @@ public class OnlinerHeaderPageTest {
                 .assertThatDropdownListIsDisplayed("Автобарахолка");
     }
 
-//    @Test
-//    public void testAssertThatCarMarketDropdownListHasSize() {
-//        headerPage
-//                .moveToLinkOnHeaderPage("Автобарахолка")
-//                .assertThatDropdownListHasSize("Автобарахолка", 36);
-//    }
-//
-//    @Test(dataProvider = "car-market-params")
-//    public void testAssertThatCarMarketDropdownListContainsValue(String value) {
-//        headerPage
-//                .moveToLinkOnHeaderPage("Автобарахолка")
-//                .assertThatDropdownListContainsValue("Автобарахолка", value);
-//    }
-//
-//    @Test
-//    public void testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle() {
-//        headerPage
-//                .moveToLinkOnHeaderPage("Дома и квартиры")
-//                .assertThatDropdownListIsDisplayed("Дома и квартиры");
-//    }
-//
-//    @Test
-//    public void testAssertThatHousesAndFlatsDropdownListHasSize() {
-//        headerPage
-//                .moveToLinkOnHeaderPage("Дома и квартиры")
-//                .assertThatDropdownListHasSize("Дома и квартиры", 28);
-//    }
+    @Test
+    public void testAssertThatCarMarketDropdownListHasSize() {
+        headerPage
+                .moveToLinkOnHeaderPage("Автобарахолка")
+                .assertThatDropdownListHasSize("Автобарахолка", 36);
+    }
+
+    @Test(dataProvider = "car-market-params")
+    public void testAssertThatCarMarketDropdownListContainsValue(String value) {
+        headerPage
+                .moveToLinkOnHeaderPage("Автобарахолка")
+                .assertThatDropdownListContainsValue("Автобарахолка", value);
+    }
+
+    @Test
+    public void testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle() {
+        headerPage
+                .moveToLinkOnHeaderPage("Дома и квартиры")
+                .assertThatDropdownListIsDisplayed("Дома и квартиры");
+    }
+
+    @Test
+    public void testAssertThatHousesAndFlatsDropdownListHasSize() {
+        headerPage
+                .moveToLinkOnHeaderPage("Дома и квартиры")
+                .assertThatDropdownListHasSize("Дома и квартиры", 28);
+    }
 
     @Test(dataProvider = "houses-and-flats-params")
     public void testAssertThatHousesAndFlatsDropdownListContainsValue(String value) {

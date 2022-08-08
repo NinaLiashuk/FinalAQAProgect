@@ -23,7 +23,7 @@ class OnlinerCatalogPageJUnitTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"Электроника", "Компьютеры и сети", "Бытовая техника", "Стройка и ремонт", "Дом и сад",
-            "Авто и", "Красота и спорт", "Детям и мамам", "Работа и офис", "Еда"})
+            "Авто и", "Красота и спорт", "Детям и мамам", "Работа и офис"})
 
     public void testThatCatalogContainsElementsFromValues(String value) {
         headerPage.crossToOnlinerCatalogPage();

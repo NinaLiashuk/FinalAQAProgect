@@ -12,15 +12,15 @@ public class WebDriverFactoryStaticThreadRemote {
 
     private static final ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 
-    public static void setSetDriver(String browser, boolean remote) {
+    public static void setDriver(String browser, boolean remote) {
         if(!remote){
-            if(browser.equals("firefox")){
-                Configuration.browser = "firefox";
-            }
-            if(browser.equals("edge")){
-                Configuration.browser = "edge";
-            }  else {
-                Configuration.browser = "chrome";
+            switch (browser){
+                case "firefox" :
+                    Configuration.browser = "firefox";
+                    break;
+                case "chrome" :
+                    Configuration.browser = "chrome";
+                    break;
             }
         }
         else {

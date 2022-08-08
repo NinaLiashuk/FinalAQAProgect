@@ -1,0 +1,5 @@
+com\it_academy\page_object\junit5\OnlinerCatalogPageJUnitTest.class
+com\it_academy\page_object\testNg\OnlinerHeaderPageTest.class
+com\it_academy\rest_api\APITest.class
+com\it_academy\page_object\junit5\OnlinerHeaderPageJUnitTest.class
+com\it_academy\page_object\testNg\OnlinerCatalogPageTest.class

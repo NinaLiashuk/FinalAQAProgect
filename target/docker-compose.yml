@@ -1,0 +1,15 @@
+version: "3"
+services:
+  java-area:
+    image: openjdk
+    container_name: my-final-progect
+  selenium-hub:
+    image: selenoid/chrome
+    container_name: final-progect
+    ports:
+    - "4444:4444"
+    depends_on:
+      - java-area
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444

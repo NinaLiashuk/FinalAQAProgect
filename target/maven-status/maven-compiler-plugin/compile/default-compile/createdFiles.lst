@@ -1,0 +1,15 @@
+com\it_academy\page_object\OnlinerHeaderPage.class
+com\it_academy\driver\OptionsManager.class
+com\it_academy\rest_api\service\SushiVeslaService.class
+com\it_academy\page_object\OnlinerCatalogPage.class
+com\it_academy\driver\CapabilityFactory.class
+com\it_academy\rest_api\utils\GetRequestUtils.class
+com\it_academy\rest_api\endpoints\OnlinerEndpoints.class
+com\it_academy\rest_api\property\PropertiesReader.class
+com\it_academy\rest_api\utils\ResponseBodyUtils.class
+com\it_academy\rest_api\model\SushiVeslaProduct.class
+com\it_academy\navigation\OnlinerNavigation.class
+com\it_academy\rest_api\model\HeadphonesFacet.class
+com\it_academy\rest_api\FirstClassApi.class
+com\it_academy\driver\WebDriverFactoryStaticThreadRemote.class
+com\it_academy\rest_api\service\HeadphonesService.class

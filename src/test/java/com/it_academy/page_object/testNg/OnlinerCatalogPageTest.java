@@ -6,7 +6,6 @@ import com.it_academy.page_object.OnlinerCatalogPage;
 import com.it_academy.page_object.OnlinerHeaderPage;
 import org.testng.annotations.*;
 
-import static com.codeborne.selenide.Selenide.open;
 
 public class OnlinerCatalogPageTest {
 
@@ -26,6 +25,7 @@ public class OnlinerCatalogPageTest {
     public void testIsItemFromHorizontalListVisible(String value) {
         headerPage.crossToOnlinerCatalogPage();
         catalogPage.verifyThatItemFromHorizontalListVisible(value);
+        System.out.println("horizontal-categories-params");
     }
 
 
@@ -68,7 +68,7 @@ public class OnlinerCatalogPageTest {
     @DataProvider(name = "horizontal-categories-params")
     public Object[][] dataProviderMethod1() {
         return new Object[][]{{"Электроника"}, {"Компьютеры и сети"}, {"Бытовая техника"}, {"Стройка и ремонт"},
-                {"Дом и сад",}, {"Авто и"}, {"Красота и спорт"}, {"Детям и мамам"}, {"Работа и офис"}, {"Еда"}};
+                {"Дом и сад",}, {"Авто и"}, {"Красота и спорт"}, {"Детям и мамам"}, {"Работа и офис"}};
     }
 
     @DataProvider(name = "vertical-list-params")

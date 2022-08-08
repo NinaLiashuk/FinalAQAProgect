@@ -16,7 +16,7 @@ public class OnlinerNavigation {
     }
 
     public static synchronized OnlinerHeaderPage openOnlinerHeaderPage(String browser, boolean remote){
-        setSetDriver(browser, remote);
+        setDriver(browser, remote);
         Configuration.browser = browser;
         Selenide.open(ONLINER_URL);
         return new OnlinerHeaderPage();
