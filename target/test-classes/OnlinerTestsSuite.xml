@@ -15,10 +15,4 @@
             <class name="com.it_academy.page_object.testNg.OnlinerCatalogPageTest"/>
         </classes>
     </test>
-<!--    <test name="Parallel Tests edge" parallel="classes">-->
-<!--        <parameter name="browser" value="edge"/>-->
-<!--        <classes>-->
-<!--            <class name="com.it_academy.page_object.testNg.OnlinerCatalogPageTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
 </suite>

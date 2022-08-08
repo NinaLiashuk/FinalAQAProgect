@@ -136,7 +136,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M1</version>
                 <configuration>
-                    <suiteXmlFiles>\src\test\resources\OnlinerTestsSuite.xml</suiteXmlFiles>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>\src\test\resources\OnlinerTestsSuite.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}\org\aspectj\aspectjweaver\${aspectj.version}\aspectjweaver-${aspectj.version}.jar"
                     </argLine>
@@ -173,4 +175,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>onliner-tests</id>
+            <properties>
+                <suiteXmlFile>\src\test\resources\OnlinerTestsSuite.xml</suiteXmlFile>
+            </properties>
+        </profile>
+    </profiles>
 </project>
