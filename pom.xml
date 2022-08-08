@@ -17,6 +17,7 @@
         <cucumber.version>7.4.1</cucumber.version>
         <aspectj.version>1.9.8</aspectj.version>
         <allure.version>2.13.6</allure.version>
+        <suiteXmlFile>${project.basedir}\src\test\resources\OnlinerTestsSuite.xml</suiteXmlFile>
     </properties>
 
     <dependencies>
@@ -180,7 +181,7 @@
         <profile>
             <id>onliner-tests</id>
             <properties>
-                <suiteXmlFile>\src\test\resources\OnlinerTestsSuite</suiteXmlFile>
+                <suiteXmlFile>OnlinerTestsSuite</suiteXmlFile>
             </properties>
         </profile>
     </profiles>

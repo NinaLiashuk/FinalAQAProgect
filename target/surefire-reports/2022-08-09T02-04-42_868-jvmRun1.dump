@@ -1,4 +1,4 @@
-# Created at 2022-08-09T01:15:00.950
+# Created at 2022-08-09T02:04:44.865
 org.apache.maven.surefire.testset.TestSetFailedException: Suite file C:\src\test\resources\OnlinerTestsSuite.xml is not a valid file
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.locateTestSets(TestNGXmlTestSuite.java:99)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
