@@ -17,7 +17,6 @@
         <cucumber.version>7.4.1</cucumber.version>
         <aspectj.version>1.9.8</aspectj.version>
         <allure.version>2.13.6</allure.version>
-        <suiteXmlFile>${project.basedir}\src\test\resources\OnlinerTestsSuite.xml</suiteXmlFile>
     </properties>
 
     <dependencies>
@@ -138,7 +137,7 @@
                 <version>3.0.0-M1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>\src\test\resources\OnlinerTestsSuite.xml</suiteXmlFile>
+                        <suiteXmlFile>OnlinerTestsSuite.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}\org\aspectj\aspectjweaver\${aspectj.version}\aspectjweaver-${aspectj.version}.jar"
@@ -181,7 +180,7 @@
         <profile>
             <id>onliner-tests</id>
             <properties>
-                <suiteXmlFile>OnlinerTestsSuite</suiteXmlFile>
+                <suite.xml.file>OnlinerTestsSuite</suite.xml.file>
             </properties>
         </profile>
     </profiles>
