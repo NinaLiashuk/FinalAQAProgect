@@ -180,7 +180,7 @@
         <profile>
             <id>onliner-tests</id>
             <properties>
-                <suiteXmlFile>\src\test\resources\OnlinerTestsSuite.xml</suiteXmlFile>
+                <suiteXmlFile>\src\test\resources\OnlinerTestsSuite</suiteXmlFile>
             </properties>
         </profile>
     </profiles>
