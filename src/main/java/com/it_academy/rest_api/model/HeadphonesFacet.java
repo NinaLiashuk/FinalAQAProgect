@@ -1,5 +1,8 @@
 package com.it_academy.rest_api.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class HeadphonesFacet {
     private String name;
     private String description;

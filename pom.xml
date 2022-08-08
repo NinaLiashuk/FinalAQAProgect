@@ -125,5 +125,14 @@
         </plugins>
     </build>
 
+    <profiles>
+        <profile>
+            <id>onliner-tests</id>
+            <properties>
+                    <suite.xml.file>OnlinerTestsSuite</suite.xml.file>
+            </properties>
+        </profile>
+    </profiles>
+
 
 </project>

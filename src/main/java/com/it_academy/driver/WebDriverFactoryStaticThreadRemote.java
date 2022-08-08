@@ -1,36 +1,31 @@
 package com.it_academy.driver;
 
+import com.codeborne.selenide.Configuration;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
-import java.net.MalformedURLException;
 import java.net.URL;
 
+import static com.it_academy.driver.CapabilityFactory.getCapabilities;
+import static com.it_academy.rest_api.property.PropertiesReader.getGridUrl;
+
 public class WebDriverFactoryStaticThreadRemote {
-    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-    private static CapabilityFactory capabilityFactory = new CapabilityFactory();
 
-    public static void setDriver(String browser) {
-        try {
-            driver.set(new RemoteWebDriver(new URL("http://192.168.0.52:4444/"),
-                    capabilityFactory.getCapabilities(browser)));
-        } catch (MalformedURLException e) {
-            System.out.println("Cannot create connection with remote server");
-            e.printStackTrace();
-        }
-    }
+    private static final ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 
-    public static void setDRIVE(String browser) {
-        if(browser.equals("firefox")){
-            driver.set(new FirefoxDriver());
+    public static void setSetDriver(String browser, boolean remote) {
+        if(!remote){
+            if(browser.equals("firefox")){
+                Configuration.browser = "firefox";
+            }
+            if(browser.equals("edge")){
+                Configuration.browser = "edge";
+            }  else {
+                Configuration.browser = "chrome";
+            }
         }
-        if(browser.equals("edge")){
-           driver.set(new EdgeDriver());
-        }  else{
-            driver.set(new ChromeDriver());
+        else {
+            URL gridUrl = getGridUrl("gridUrl");
+            driver.set(new RemoteWebDriver(gridUrl, getCapabilities(browser)));
         }
     }
 
@@ -39,7 +34,9 @@ public class WebDriverFactoryStaticThreadRemote {
     }
 
     public static void closeDriver() {
-        driver.get().close();
-        driver.remove();
+       if (driver.get() != null){
+           driver.get().close();
+           driver.remove();
+       }
     }
 }

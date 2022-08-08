@@ -2,8 +2,6 @@ package com.it_academy.rest_api.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import java.util.Objects;
-
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class SushiVeslaProduct {
     private int id;

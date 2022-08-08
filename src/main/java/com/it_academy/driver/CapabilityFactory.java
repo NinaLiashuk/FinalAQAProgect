@@ -3,9 +3,10 @@ package com.it_academy.driver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class CapabilityFactory {
-    public DesiredCapabilities capabilities;
 
-    public DesiredCapabilities getCapabilities(String browser) {
+    public static DesiredCapabilities capabilities;
+
+    public static DesiredCapabilities getCapabilities(String browser) {
         if (browser.equals("firefox"))
             capabilities = OptionsManager.getFirefoxDesiredCapabilities();
         else
