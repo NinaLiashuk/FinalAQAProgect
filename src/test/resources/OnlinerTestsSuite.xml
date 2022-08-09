@@ -15,4 +15,9 @@
             <class name="com.it_academy.page_object.testNg.OnlinerCatalogPageTest"/>
         </classes>
     </test>
+    <test name="API tests" parallel="classes">
+        <classes>
+            <class name="com.it_academy.rest_api.APITest"/>
+        </classes>
+    </test>
 </suite>

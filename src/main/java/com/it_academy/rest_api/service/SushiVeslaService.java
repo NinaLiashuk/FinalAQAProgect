@@ -10,6 +10,8 @@ import io.restassured.response.ResponseBody;
 import java.util.List;
 import java.util.Map;
 
+import static com.it_academy.rest_api.endpoints.OnlinerEndpoints.getProductSushiRollsEndPoint;
+
 public class SushiVeslaService {
     private static final String SUSHI_PRODUCTS_JSON_PATH = "products";
     private static final String SUSHI_NAME_PREFIX_JSON_PATH = "products.name_prefix";
@@ -28,7 +30,7 @@ public class SushiVeslaService {
 
     public String getSushiNamePrefix(){
         ResponseBody responseBody = GetRequestUtils.makeRequestAndGetResponseBody(
-                OnlinerEndpoints.getProductSushiRollsEndPoint(), configureHeaders(), null);
+                getProductSushiRollsEndPoint(), configureHeaders(), null);
 
         return ResponseBodyUtils.getStringJsonValue(responseBody, SUSHI_NAME_PREFIX_JSON_PATH);
     }

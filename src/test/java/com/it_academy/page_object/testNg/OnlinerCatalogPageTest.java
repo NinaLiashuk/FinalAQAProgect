@@ -15,7 +15,6 @@ public class OnlinerCatalogPageTest {
     @BeforeClass
     @Parameters(value = {"browser", "remote"})
     public void openBrowser(String browser, boolean remote){
-
         OnlinerNavigation.openOnlinerHeaderPage(browser, remote);
         headerPage = new OnlinerHeaderPage();
         catalogPage = new OnlinerCatalogPage();

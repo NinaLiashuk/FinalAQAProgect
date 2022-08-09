@@ -9,8 +9,6 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 
 public class GetRequestUtils {
-    private GetRequestUtils() {
-    }
 
     public static ResponseBody makeRequestAndGetResponseBody(String endpoint,
                                                              Map<String, Object> headers,

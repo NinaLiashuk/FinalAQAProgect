@@ -15,10 +15,10 @@ public class OnlinerNavigation {
         new OnlinerHeaderPage();
     }
 
-    public static synchronized OnlinerHeaderPage openOnlinerHeaderPage(String browser, boolean remote){
+    public static synchronized void openOnlinerHeaderPage(String browser, boolean remote){
         setDriver(browser, remote);
         Configuration.browser = browser;
         Selenide.open(ONLINER_URL);
-        return new OnlinerHeaderPage();
+        new OnlinerHeaderPage();
     }
 }
