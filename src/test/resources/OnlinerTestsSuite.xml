@@ -5,19 +5,19 @@
         <parameter name="browser" value="chrome"/>
         <parameter name="remote" value="false"/>
         <classes>
-            <class name="com.it_academy.page_object.testNg.OnlinerHeaderPageTest"/>
+            <class name="com.it_academy.ui_tests.OnlinerHeaderPageTest"/>
         </classes>
     </test>
     <test name="Parallel Tests firefox" parallel="classes">
         <parameter name="browser" value="firefox"/>
         <parameter name="remote" value="false"/>
         <classes>
-            <class name="com.it_academy.page_object.testNg.OnlinerCatalogPageTest"/>
+            <class name="com.it_academy.ui_tests.OnlinerCatalogPageTest"/>
         </classes>
     </test>
     <test name="API tests" parallel="classes">
         <classes>
-            <class name="com.it_academy.rest_api.APITest"/>
+            <class name="com.it_academy.api_tests.APITest"/>
         </classes>
     </test>
 </suite>

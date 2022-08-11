@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+Test set: com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 240.8 s <<< FAILURE! - in com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest
+testIsItemFromVerticalListVisible(com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest)  Time elapsed: 11.056 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133716538.0.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133716538.0.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+Caused by: com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+
+testIsItemFromVerticalListVisible(com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest)  Time elapsed: 11.652 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133728311.1.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133728311.1.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+Caused by: com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+
+testIsItemFromVerticalListVisible(com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest)  Time elapsed: 11.087 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133739371.2.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133739371.2.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+Caused by: com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+
+testIsItemFromVerticalListVisible(com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest)  Time elapsed: 11.219 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133750625.3.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133750625.3.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+Caused by: com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+

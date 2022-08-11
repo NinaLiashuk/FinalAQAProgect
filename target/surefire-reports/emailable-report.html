@@ -8,50 +8,130 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Parallel Testing Suite</th></tr>
-<tr><td><a href="#t0">API tests</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7 776</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Parallel Tests chrome</a></td><td class="num">14</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">107 224</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Parallel Tests firefox</a></td><td class="num">16</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">115 155</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">35</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">230 155</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">238 119</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Parallel Testing Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">API tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.it_academy.rest_api.APITest</td><td><a href="#m0">testThatAllFilteredProductsHasNamePrefixFromValue</a></td><td rowspan="1">1660064131497</td><td rowspan="1">4876</td></tr><tr class="passedeven"><td><a href="#m1">testThatSushiProductFullNameNotEmpty</a></td><td rowspan="1">1660064136578</td><td rowspan="1">1439</td></tr><tr class="passedeven"><td><a href="#m2">testThatSushiProductIdNotEmpty</a></td><td rowspan="1">1660064138019</td><td rowspan="1">352</td></tr><tr class="passedeven"><td><a href="#m3">testThatSushiProductKeyNotEmpty</a></td><td rowspan="1">1660064138372</td><td rowspan="1">454</td></tr><tr class="passedeven"><td><a href="#m4">testThatSushiProductNameNotEmpty</a></td><td rowspan="1">1660064138827</td><td rowspan="1">350</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Parallel Tests chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="14">com.it_academy.page_object.testNg.OnlinerHeaderPageTest</td><td><a href="#m5">testAssertThatCarMarketDropdownListContainsValue</a></td><td rowspan="5">1660064147829</td><td rowspan="5">5223</td></tr><tr class="passedeven"><td><a href="#m6">testAssertThatCarMarketDropdownListContainsValue</a></td></tr><tr class="passedeven"><td><a href="#m7">testAssertThatCarMarketDropdownListContainsValue</a></td></tr><tr class="passedeven"><td><a href="#m8">testAssertThatCarMarketDropdownListContainsValue</a></td></tr><tr class="passedeven"><td><a href="#m9">testAssertThatCarMarketDropdownListContainsValue</a></td></tr><tr class="passedeven"><td><a href="#m10">testAssertThatCarMarketDropdownListHasSize</a></td><td rowspan="1">1660064189760</td><td rowspan="1">948</td></tr><tr class="passedeven"><td><a href="#m11">testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle</a></td><td rowspan="1">1660064190710</td><td rowspan="1">10480</td></tr><tr class="passedeven"><td><a href="#m12">testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle</a></td><td rowspan="1">1660064201191</td><td rowspan="1">9912</td></tr><tr class="passedeven"><td><a href="#m13">testAssertThatHousesAndFlatsDropdownListContainsValue</a></td><td rowspan="5">1660064222477</td><td rowspan="5">6966</td></tr><tr class="passedeven"><td><a href="#m14">testAssertThatHousesAndFlatsDropdownListContainsValue</a></td></tr><tr class="passedeven"><td><a href="#m15">testAssertThatHousesAndFlatsDropdownListContainsValue</a></td></tr><tr class="passedeven"><td><a href="#m16">testAssertThatHousesAndFlatsDropdownListContainsValue</a></td></tr><tr class="passedeven"><td><a href="#m17">testAssertThatHousesAndFlatsDropdownListContainsValue</a></td></tr><tr class="passedeven"><td><a href="#m18">testAssertThatHousesAndFlatsDropdownListHasSize</a></td><td rowspan="1">1660064237466</td><td rowspan="1">1161</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Parallel Tests firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="16">com.it_academy.page_object.testNg.OnlinerCatalogPageTest</td><td><a href="#m19">testAssertThatAllItemsMinPriceVisible</a></td><td rowspan="1">1660064138184</td><td rowspan="1">31204</td></tr><tr class="passedeven"><td><a href="#m20">testAssertThatAllItemsQuantityVisible</a></td><td rowspan="1">1660064169390</td><td rowspan="1">20780</td></tr><tr class="passedeven"><td><a href="#m21">testAssertThatAllItemsTitlesVisible</a></td><td rowspan="1">1660064190171</td><td rowspan="1">13031</td></tr><tr class="passedeven"><td><a href="#m22">testIsItemFromHorizontalListVisible</a></td><td rowspan="9">1660064218176</td><td rowspan="9">2458</td></tr><tr class="passedeven"><td><a href="#m23">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m24">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m25">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m26">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m27">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m28">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m29">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m30">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m31">testIsItemFromVerticalListVisible</a></td><td rowspan="4">1660064236038</td><td rowspan="4">5655</td></tr><tr class="passedeven"><td><a href="#m32">testIsItemFromVerticalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m33">testIsItemFromVerticalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m34">testIsItemFromVerticalListVisible</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest</td><td><a href="#m0">testIsItemFromVerticalListVisible</a></td><td rowspan="4">1660133730088</td><td rowspan="4">10698</td></tr><tr class="failedeven"><td><a href="#m1">testIsItemFromVerticalListVisible</a></td></tr><tr class="failedeven"><td><a href="#m2">testIsItemFromVerticalListVisible</a></td></tr><tr class="failedeven"><td><a href="#m3">testIsItemFromVerticalListVisible</a></td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="12">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest</td><td><a href="#m4">testAssertThatAllItemsMinPriceVisible</a></td><td rowspan="1">1660133518820</td><td rowspan="1">47675</td></tr><tr class="passedeven"><td><a href="#m5">testAssertThatAllItemsQuantityVisible</a></td><td rowspan="1">1660133566598</td><td rowspan="1">59679</td></tr><tr class="passedeven"><td><a href="#m6">testAssertThatAllItemsTitlesVisible</a></td><td rowspan="1">1660133626287</td><td rowspan="1">43344</td></tr><tr class="passedeven"><td><a href="#m7">testIsItemFromHorizontalListVisible</a></td><td rowspan="9">1660133687169</td><td rowspan="9">4958</td></tr><tr class="passedeven"><td><a href="#m8">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m9">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m10">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m11">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m12">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m13">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m14">testIsItemFromHorizontalListVisible</a></td></tr><tr class="passedeven"><td><a href="#m15">testIsItemFromHorizontalListVisible</a></td></tr></tbody>
 </table>
-<h2>API tests</h2><h3 id="m0">com.it_academy.rest_api.APITest#testThatAllFilteredProductsHasNamePrefixFromValue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.it_academy.rest_api.APITest#testThatSushiProductFullNameNotEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.it_academy.rest_api.APITest#testThatSushiProductIdNotEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.it_academy.rest_api.APITest#testThatSushiProductKeyNotEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.it_academy.rest_api.APITest#testThatSushiProductNameNotEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Parallel Tests chrome</h2><h3 id="m5">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatCarMarketDropdownListContainsValue</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Гомель</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatCarMarketDropdownListContainsValue</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Минск</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatCarMarketDropdownListContainsValue</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Opel</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatCarMarketDropdownListContainsValue</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Kawasaki</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatCarMarketDropdownListContainsValue</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Брест</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatCarMarketDropdownListHasSize</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatHousesAndFlatsDropdownListContainsValue</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>3-комнатные</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatHousesAndFlatsDropdownListContainsValue</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Минск</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatHousesAndFlatsDropdownListContainsValue</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Гомель</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatHousesAndFlatsDropdownListContainsValue</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>$</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m17">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatHousesAndFlatsDropdownListContainsValue</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>2-комнатные</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m18">com.it_academy.page_object.testNg.OnlinerHeaderPageTest#testAssertThatHousesAndFlatsDropdownListHasSize</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Parallel Tests firefox</h2><h3 id="m19">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testAssertThatAllItemsMinPriceVisible</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m20">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testAssertThatAllItemsQuantityVisible</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m21">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testAssertThatAllItemsTitlesVisible</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m22">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Авто и</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m23">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Работа и офис</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m24">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Красота и спорт</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m25">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Дом и сад</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m26">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Электроника</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m27">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Бытовая техника</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m28">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Стройка и ремонт</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m29">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Детям и мамам</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m30">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Компьютеры и сети</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m31">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromVerticalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Сетевое оборудование</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m32">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromVerticalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Ноутбуки, компьютеры, мониторы</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m33">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromVerticalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Хранение данных</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m34">com.it_academy.page_object.testNg.OnlinerCatalogPageTest#testIsItemFromVerticalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Комплектующие</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromVerticalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Сетевое оборудование</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133739371.2.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133739371.2.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromVerticalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Хранение данных</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133750625.3.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133750625.3.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromVerticalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Ноутбуки, компьютеры, мониторы</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133716538.0.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133716538.0.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromVerticalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Комплектующие</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133728311.1.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133728311.1.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testAssertThatAllItemsMinPriceVisible</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testAssertThatAllItemsQuantityVisible</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testAssertThatAllItemsTitlesVisible</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Авто и</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Дом и сад</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Бытовая техника</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Компьютеры и сети</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Стройка и ремонт</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Красота и спорт</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Работа и офис</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Детям и мамам</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest#testIsItemFromHorizontalListVisible</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Электроника</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

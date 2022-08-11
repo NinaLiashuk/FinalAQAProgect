@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Parallel_Testing_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Parallel Testing Suite</span>
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Parallel_Testing_Suite" class="navigator-link ">
-                    <span>C:\Users\Final_AQA_Progect\src\test\resources\OnlinerTestsSuite.xml</span>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Parallel_Testing_Suite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Parallel_Testing_Suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Parallel_Testing_Suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Parallel_Testing_Suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Parallel_Testing_Suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Parallel_Testing_Suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,191 +93,105 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">35 methods,   35 passed</span>
+                    <span class="method-stats">16 methods, 4 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromVerticalListVisible(Сетевое оборудование)">testIsItemFromVerticalListVisible(Сетевое оборудование)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromVerticalListVisible(Хранение данных)">testIsItemFromVerticalListVisible(Хранение данных)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromVerticalListVisible(Ноутбуки, компьютеры, мониторы)">testIsItemFromVerticalListVisible(Ноутбуки, компьютеры, мониторы)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromVerticalListVisible(Комплектующие)">testIsItemFromVerticalListVisible(Комплектующие)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Parallel_Testing_Suite" class="hide-methods passed suite-Parallel_Testing_Suite"> (hide)</a> <!-- hide-methods passed suite-Parallel_Testing_Suite -->
-                      <a href="#" panel-name="suite-Parallel_Testing_Suite" class="show-methods passed suite-Parallel_Testing_Suite"> (show)</a> <!-- show-methods passed suite-Parallel_Testing_Suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Parallel_Testing_Suite">
+                    <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testAssertThatAllItemsMinPriceVisible">testAssertThatAllItemsMinPriceVisible</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testAssertThatAllItemsMinPriceVisible">testAssertThatAllItemsMinPriceVisible</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testAssertThatAllItemsQuantityVisible">testAssertThatAllItemsQuantityVisible</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testAssertThatAllItemsQuantityVisible">testAssertThatAllItemsQuantityVisible</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testAssertThatAllItemsTitlesVisible">testAssertThatAllItemsTitlesVisible</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testAssertThatAllItemsTitlesVisible">testAssertThatAllItemsTitlesVisible</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatCarMarketDropdownListContainsValue(Гомель)">testAssertThatCarMarketDropdownListContainsValue(Гомель)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Авто и)">testIsItemFromHorizontalListVisible(Авто и)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatCarMarketDropdownListContainsValue(Минск)">testAssertThatCarMarketDropdownListContainsValue(Минск)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Дом и сад)">testIsItemFromHorizontalListVisible(Дом и сад)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatCarMarketDropdownListContainsValue(Opel)">testAssertThatCarMarketDropdownListContainsValue(Opel)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Бытовая техника)">testIsItemFromHorizontalListVisible(Бытовая техника)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatCarMarketDropdownListContainsValue(Kawasaki)">testAssertThatCarMarketDropdownListContainsValue(Kawasaki)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Компьютеры и сети)">testIsItemFromHorizontalListVisible(Компьютеры и сети)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatCarMarketDropdownListContainsValue(Брест)">testAssertThatCarMarketDropdownListContainsValue(Брест)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Стройка и ремонт)">testIsItemFromHorizontalListVisible(Стройка и ремонт)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatCarMarketDropdownListHasSize">testAssertThatCarMarketDropdownListHasSize</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Красота и спорт)">testIsItemFromHorizontalListVisible(Красота и спорт)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle">testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Работа и офис)">testIsItemFromHorizontalListVisible(Работа и офис)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle">testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Детям и мамам)">testIsItemFromHorizontalListVisible(Детям и мамам)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatHousesAndFlatsDropdownListContainsValue(3-комнатные)">testAssertThatHousesAndFlatsDropdownListContainsValue(3-комнатные)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Электроника)">testIsItemFromHorizontalListVisible(Электроника)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatHousesAndFlatsDropdownListContainsValue(Минск)">testAssertThatHousesAndFlatsDropdownListContainsValue(Минск)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatHousesAndFlatsDropdownListContainsValue(Гомель)">testAssertThatHousesAndFlatsDropdownListContainsValue(Гомель)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatHousesAndFlatsDropdownListContainsValue($)">testAssertThatHousesAndFlatsDropdownListContainsValue($)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatHousesAndFlatsDropdownListContainsValue(2-комнатные)">testAssertThatHousesAndFlatsDropdownListContainsValue(2-комнатные)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerHeaderPageTest" class="method navigator-link" hash-for-method="testAssertThatHousesAndFlatsDropdownListHasSize">testAssertThatHousesAndFlatsDropdownListHasSize</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Авто и)">testIsItemFromHorizontalListVisible(Авто и)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Работа и офис)">testIsItemFromHorizontalListVisible(Работа и офис)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Красота и спорт)">testIsItemFromHorizontalListVisible(Красота и спорт)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Дом и сад)">testIsItemFromHorizontalListVisible(Дом и сад)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Электроника)">testIsItemFromHorizontalListVisible(Электроника)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Бытовая техника)">testIsItemFromHorizontalListVisible(Бытовая техника)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Стройка и ремонт)">testIsItemFromHorizontalListVisible(Стройка и ремонт)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Детям и мамам)">testIsItemFromHorizontalListVisible(Детям и мамам)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromHorizontalListVisible(Компьютеры и сети)">testIsItemFromHorizontalListVisible(Компьютеры и сети)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromVerticalListVisible(Сетевое оборудование)">testIsItemFromVerticalListVisible(Сетевое оборудование)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromVerticalListVisible(Ноутбуки, компьютеры, мониторы)">testIsItemFromVerticalListVisible(Ноутбуки, компьютеры, мониторы)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromVerticalListVisible(Хранение данных)">testIsItemFromVerticalListVisible(Хранение данных)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.page_object.testNg.OnlinerCatalogPageTest" class="method navigator-link" hash-for-method="testIsItemFromVerticalListVisible(Комплектующие)">testIsItemFromVerticalListVisible(Комплектующие)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.rest_api.APITest" class="method navigator-link" hash-for-method="testThatAllFilteredProductsHasNamePrefixFromValue">testThatAllFilteredProductsHasNamePrefixFromValue</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.rest_api.APITest" class="method navigator-link" hash-for-method="testThatSushiProductFullNameNotEmpty">testThatSushiProductFullNameNotEmpty</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.rest_api.APITest" class="method navigator-link" hash-for-method="testThatSushiProductIdNotEmpty">testThatSushiProductIdNotEmpty</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.rest_api.APITest" class="method navigator-link" hash-for-method="testThatSushiProductKeyNotEmpty">testThatSushiProductKeyNotEmpty</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Testing_Suite" title="com.it_academy.rest_api.APITest" class="method navigator-link" hash-for-method="testThatSushiProductNameNotEmpty">testThatSushiProductNameNotEmpty</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Parallel_Testing_Suite -->
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -288,170 +202,163 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Parallel_Testing_Suite" class="panel Parallel_Testing_Suite">
-          <div class="suite-Parallel_Testing_Suite-class-passed">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.it_academy.rest_api.APITest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testThatAllFilteredProductsHasNamePrefixFromValue">
-                  </a> <!-- testThatAllFilteredProductsHasNamePrefixFromValue -->
-                  <span class="method-name">testThatAllFilteredProductsHasNamePrefixFromValue</span>
+                  <a name="testIsItemFromVerticalListVisible(Сетевое оборудование)">
+                  </a> <!-- testIsItemFromVerticalListVisible(Сетевое оборудование) -->
+                  <span class="method-name">testIsItemFromVerticalListVisible</span>
+                  <span class="parameters">(Сетевое оборудование)</span>
+                  <div class="stack-trace">Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133739371.2.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133739371.2.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+	... 42 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testThatSushiProductFullNameNotEmpty">
-                  </a> <!-- testThatSushiProductFullNameNotEmpty -->
-                  <span class="method-name">testThatSushiProductFullNameNotEmpty</span>
+                  <a name="testIsItemFromVerticalListVisible(Хранение данных)">
+                  </a> <!-- testIsItemFromVerticalListVisible(Хранение данных) -->
+                  <span class="method-name">testIsItemFromVerticalListVisible</span>
+                  <span class="parameters">(Хранение данных)</span>
+                  <div class="stack-trace">Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133750625.3.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133750625.3.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+	... 42 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testThatSushiProductIdNotEmpty">
-                  </a> <!-- testThatSushiProductIdNotEmpty -->
-                  <span class="method-name">testThatSushiProductIdNotEmpty</span>
+                  <a name="testIsItemFromVerticalListVisible(Ноутбуки, компьютеры, мониторы)">
+                  </a> <!-- testIsItemFromVerticalListVisible(Ноутбуки, компьютеры, мониторы) -->
+                  <span class="method-name">testIsItemFromVerticalListVisible</span>
+                  <span class="parameters">(Ноутбуки, компьютеры, мониторы)</span>
+                  <div class="stack-trace">Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133716538.0.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133716538.0.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+	... 42 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testThatSushiProductKeyNotEmpty">
-                  </a> <!-- testThatSushiProductKeyNotEmpty -->
-                  <span class="method-name">testThatSushiProductKeyNotEmpty</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testThatSushiProductNameNotEmpty">
-                  </a> <!-- testThatSushiProductNameNotEmpty -->
-                  <span class="method-name">testThatSushiProductNameNotEmpty</span>
+                  <a name="testIsItemFromVerticalListVisible(Комплектующие)">
+                  </a> <!-- testIsItemFromVerticalListVisible(Комплектующие) -->
+                  <span class="method-name">testIsItemFromVerticalListVisible</span>
+                  <span class="parameters">(Комплектующие)</span>
+                  <div class="stack-trace">Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133728311.1.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133728311.1.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+	at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: Element not found {$$(22 elements).findBy(text &apos;fhhjmm&apos;)}
+Expected: text &apos;fhhjmm&apos;
+Timeout: 0 ms.
+	at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+	... 42 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Parallel_Testing_Suite-class-passed -->
-          <div class="suite-Parallel_Testing_Suite-class-passed">
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.it_academy.page_object.testNg.OnlinerHeaderPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatCarMarketDropdownListContainsValue(Гомель)">
-                  </a> <!-- testAssertThatCarMarketDropdownListContainsValue(Гомель) -->
-                  <span class="method-name">testAssertThatCarMarketDropdownListContainsValue</span>
-                  <span class="parameters">(Гомель)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatCarMarketDropdownListContainsValue(Минск)">
-                  </a> <!-- testAssertThatCarMarketDropdownListContainsValue(Минск) -->
-                  <span class="method-name">testAssertThatCarMarketDropdownListContainsValue</span>
-                  <span class="parameters">(Минск)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatCarMarketDropdownListContainsValue(Opel)">
-                  </a> <!-- testAssertThatCarMarketDropdownListContainsValue(Opel) -->
-                  <span class="method-name">testAssertThatCarMarketDropdownListContainsValue</span>
-                  <span class="parameters">(Opel)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatCarMarketDropdownListContainsValue(Kawasaki)">
-                  </a> <!-- testAssertThatCarMarketDropdownListContainsValue(Kawasaki) -->
-                  <span class="method-name">testAssertThatCarMarketDropdownListContainsValue</span>
-                  <span class="parameters">(Kawasaki)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatCarMarketDropdownListContainsValue(Брест)">
-                  </a> <!-- testAssertThatCarMarketDropdownListContainsValue(Брест) -->
-                  <span class="method-name">testAssertThatCarMarketDropdownListContainsValue</span>
-                  <span class="parameters">(Брест)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatCarMarketDropdownListHasSize">
-                  </a> <!-- testAssertThatCarMarketDropdownListHasSize -->
-                  <span class="method-name">testAssertThatCarMarketDropdownListHasSize</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle">
-                  </a> <!-- testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle -->
-                  <span class="method-name">testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle">
-                  </a> <!-- testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle -->
-                  <span class="method-name">testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatHousesAndFlatsDropdownListContainsValue(3-комнатные)">
-                  </a> <!-- testAssertThatHousesAndFlatsDropdownListContainsValue(3-комнатные) -->
-                  <span class="method-name">testAssertThatHousesAndFlatsDropdownListContainsValue</span>
-                  <span class="parameters">(3-комнатные)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatHousesAndFlatsDropdownListContainsValue(Минск)">
-                  </a> <!-- testAssertThatHousesAndFlatsDropdownListContainsValue(Минск) -->
-                  <span class="method-name">testAssertThatHousesAndFlatsDropdownListContainsValue</span>
-                  <span class="parameters">(Минск)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatHousesAndFlatsDropdownListContainsValue(Гомель)">
-                  </a> <!-- testAssertThatHousesAndFlatsDropdownListContainsValue(Гомель) -->
-                  <span class="method-name">testAssertThatHousesAndFlatsDropdownListContainsValue</span>
-                  <span class="parameters">(Гомель)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatHousesAndFlatsDropdownListContainsValue($)">
-                  </a> <!-- testAssertThatHousesAndFlatsDropdownListContainsValue($) -->
-                  <span class="method-name">testAssertThatHousesAndFlatsDropdownListContainsValue</span>
-                  <span class="parameters">($)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatHousesAndFlatsDropdownListContainsValue(2-комнатные)">
-                  </a> <!-- testAssertThatHousesAndFlatsDropdownListContainsValue(2-комнатные) -->
-                  <span class="method-name">testAssertThatHousesAndFlatsDropdownListContainsValue</span>
-                  <span class="parameters">(2-комнатные)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssertThatHousesAndFlatsDropdownListHasSize">
-                  </a> <!-- testAssertThatHousesAndFlatsDropdownListHasSize -->
-                  <span class="method-name">testAssertThatHousesAndFlatsDropdownListHasSize</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Parallel_Testing_Suite-class-passed -->
-          <div class="suite-Parallel_Testing_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.it_academy.page_object.testNg.OnlinerCatalogPageTest</span>
+              <span class="class-name">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -485,34 +392,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testIsItemFromHorizontalListVisible(Работа и офис)">
-                  </a> <!-- testIsItemFromHorizontalListVisible(Работа и офис) -->
-                  <span class="method-name">testIsItemFromHorizontalListVisible</span>
-                  <span class="parameters">(Работа и офис)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testIsItemFromHorizontalListVisible(Красота и спорт)">
-                  </a> <!-- testIsItemFromHorizontalListVisible(Красота и спорт) -->
-                  <span class="method-name">testIsItemFromHorizontalListVisible</span>
-                  <span class="parameters">(Красота и спорт)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testIsItemFromHorizontalListVisible(Дом и сад)">
                   </a> <!-- testIsItemFromHorizontalListVisible(Дом и сад) -->
                   <span class="method-name">testIsItemFromHorizontalListVisible</span>
                   <span class="parameters">(Дом и сад)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testIsItemFromHorizontalListVisible(Электроника)">
-                  </a> <!-- testIsItemFromHorizontalListVisible(Электроника) -->
-                  <span class="method-name">testIsItemFromHorizontalListVisible</span>
-                  <span class="parameters">(Электроника)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -525,10 +408,34 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testIsItemFromHorizontalListVisible(Компьютеры и сети)">
+                  </a> <!-- testIsItemFromHorizontalListVisible(Компьютеры и сети) -->
+                  <span class="method-name">testIsItemFromHorizontalListVisible</span>
+                  <span class="parameters">(Компьютеры и сети)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testIsItemFromHorizontalListVisible(Стройка и ремонт)">
                   </a> <!-- testIsItemFromHorizontalListVisible(Стройка и ремонт) -->
                   <span class="method-name">testIsItemFromHorizontalListVisible</span>
                   <span class="parameters">(Стройка и ремонт)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsItemFromHorizontalListVisible(Красота и спорт)">
+                  </a> <!-- testIsItemFromHorizontalListVisible(Красота и спорт) -->
+                  <span class="method-name">testIsItemFromHorizontalListVisible</span>
+                  <span class="parameters">(Красота и спорт)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsItemFromHorizontalListVisible(Работа и офис)">
+                  </a> <!-- testIsItemFromHorizontalListVisible(Работа и офис) -->
+                  <span class="method-name">testIsItemFromHorizontalListVisible</span>
+                  <span class="parameters">(Работа и офис)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -541,499 +448,244 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testIsItemFromHorizontalListVisible(Компьютеры и сети)">
-                  </a> <!-- testIsItemFromHorizontalListVisible(Компьютеры и сети) -->
+                  <a name="testIsItemFromHorizontalListVisible(Электроника)">
+                  </a> <!-- testIsItemFromHorizontalListVisible(Электроника) -->
                   <span class="method-name">testIsItemFromHorizontalListVisible</span>
-                  <span class="parameters">(Компьютеры и сети)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testIsItemFromVerticalListVisible(Сетевое оборудование)">
-                  </a> <!-- testIsItemFromVerticalListVisible(Сетевое оборудование) -->
-                  <span class="method-name">testIsItemFromVerticalListVisible</span>
-                  <span class="parameters">(Сетевое оборудование)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testIsItemFromVerticalListVisible(Ноутбуки, компьютеры, мониторы)">
-                  </a> <!-- testIsItemFromVerticalListVisible(Ноутбуки, компьютеры, мониторы) -->
-                  <span class="method-name">testIsItemFromVerticalListVisible</span>
-                  <span class="parameters">(Ноутбуки, компьютеры, мониторы)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testIsItemFromVerticalListVisible(Хранение данных)">
-                  </a> <!-- testIsItemFromVerticalListVisible(Хранение данных) -->
-                  <span class="method-name">testIsItemFromVerticalListVisible</span>
-                  <span class="parameters">(Хранение данных)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testIsItemFromVerticalListVisible(Комплектующие)">
-                  </a> <!-- testIsItemFromVerticalListVisible(Комплектующие) -->
-                  <span class="method-name">testIsItemFromVerticalListVisible</span>
-                  <span class="parameters">(Комплектующие)</span>
+                  <span class="parameters">(Электроника)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Parallel_Testing_Suite-class-passed -->
-        </div> <!-- panel Parallel_Testing_Suite -->
-        <div panel-name="test-xml-Parallel_Testing_Suite" class="panel">
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Final_AQA_Progect\src\test\resources\OnlinerTestsSuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;Parallel Testing Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;Parallel Tests chrome&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;parameter name=&quot;remote&quot; value=&quot;false&quot;/&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.it_academy.page_object.testNg.OnlinerHeaderPageTest&quot;/&gt;
+      &lt;class name=&quot;com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Parallel Tests chrome --&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;Parallel Tests firefox&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;parameter name=&quot;remote&quot; value=&quot;false&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.it_academy.page_object.testNg.OnlinerCatalogPageTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Parallel Tests firefox --&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;API tests&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.it_academy.rest_api.APITest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- API tests --&gt;
-&lt;/suite&gt; &lt;!-- Parallel Testing Suite --&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Parallel_Testing_Suite" class="panel">
+        <div panel-name="testlist-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Parallel Testing Suite</span>
+            <span class="header-content">Tests for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Parallel Tests chrome (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Parallel Tests firefox (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">API tests (1 class)</span>
+                <span class="test-name">Surefire test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Parallel_Testing_Suite" class="panel">
+        <div panel-name="group-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Parallel Testing Suite</span>
+            <span class="header-content">Groups for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Parallel_Testing_Suite" class="panel">
+        <div panel-name="times-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Parallel Testing Suite</span>
+            <span class="header-content">Times for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Parallel_Testing_Suite');
-function tableData_Parallel_Testing_Suite() {
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(35);
+data.addRows(16);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testAssertThatAllItemsMinPriceVisible')
-data.setCell(0, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(0, 3, 31204);
+data.setCell(0, 1, 'testAssertThatAllItemsQuantityVisible')
+data.setCell(0, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(0, 3, 59679);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testAssertThatAllItemsQuantityVisible')
-data.setCell(1, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(1, 3, 20780);
+data.setCell(1, 1, 'testAssertThatAllItemsMinPriceVisible')
+data.setCell(1, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(1, 3, 47675);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testAssertThatCarMarketDropdownListContainsValue')
-data.setCell(2, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(2, 3, 17312);
+data.setCell(2, 1, 'testAssertThatAllItemsTitlesVisible')
+data.setCell(2, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(2, 3, 43344);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testAssertThatAllItemsTitlesVisible')
-data.setCell(3, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(3, 3, 13031);
+data.setCell(3, 1, 'testIsItemFromVerticalListVisible')
+data.setCell(3, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(3, 3, 11249);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testAssertThatCarMarketDropdownListContainsValue')
-data.setCell(4, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(4, 3, 11980);
+data.setCell(4, 1, 'testIsItemFromVerticalListVisible')
+data.setCell(4, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(4, 3, 10837);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle')
-data.setCell(5, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(5, 3, 10480);
+data.setCell(5, 1, 'testIsItemFromVerticalListVisible')
+data.setCell(5, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(5, 3, 10698);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle')
-data.setCell(6, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(6, 3, 9912);
+data.setCell(6, 1, 'testIsItemFromVerticalListVisible')
+data.setCell(6, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(6, 3, 10667);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testAssertThatHousesAndFlatsDropdownListContainsValue')
-data.setCell(7, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(7, 3, 8020);
+data.setCell(7, 1, 'testIsItemFromHorizontalListVisible')
+data.setCell(7, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(7, 3, 5488);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testAssertThatCarMarketDropdownListContainsValue')
-data.setCell(8, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(8, 3, 7410);
+data.setCell(8, 1, 'testIsItemFromHorizontalListVisible')
+data.setCell(8, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(8, 3, 4991);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'testIsItemFromHorizontalListVisible')
-data.setCell(9, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(9, 3, 7353);
+data.setCell(9, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(9, 3, 4958);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testAssertThatHousesAndFlatsDropdownListContainsValue')
-data.setCell(10, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(10, 3, 6966);
+data.setCell(10, 1, 'testIsItemFromHorizontalListVisible')
+data.setCell(10, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(10, 3, 4766);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testAssertThatHousesAndFlatsDropdownListContainsValue')
-data.setCell(11, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(11, 3, 6342);
+data.setCell(11, 1, 'testIsItemFromHorizontalListVisible')
+data.setCell(11, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(11, 3, 4174);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testIsItemFromVerticalListVisible')
-data.setCell(12, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(12, 3, 5655);
+data.setCell(12, 1, 'testIsItemFromHorizontalListVisible')
+data.setCell(12, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(12, 3, 4083);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testIsItemFromVerticalListVisible')
-data.setCell(13, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(13, 3, 5400);
+data.setCell(13, 1, 'testIsItemFromHorizontalListVisible')
+data.setCell(13, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(13, 3, 3186);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testAssertThatCarMarketDropdownListContainsValue')
-data.setCell(14, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(14, 3, 5223);
+data.setCell(14, 1, 'testIsItemFromHorizontalListVisible')
+data.setCell(14, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(14, 3, 3087);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testAssertThatCarMarketDropdownListContainsValue')
-data.setCell(15, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(15, 3, 5096);
-data.setCell(16, 0, 16)
-data.setCell(16, 1, 'testIsItemFromVerticalListVisible')
-data.setCell(16, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(16, 3, 4911);
-data.setCell(17, 0, 17)
-data.setCell(17, 1, 'testThatAllFilteredProductsHasNamePrefixFromValue')
-data.setCell(17, 2, 'com.it_academy.rest_api.APITest')
-data.setCell(17, 3, 4876);
-data.setCell(18, 0, 18)
-data.setCell(18, 1, 'testIsItemFromVerticalListVisible')
-data.setCell(18, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(18, 3, 4865);
-data.setCell(19, 0, 19)
-data.setCell(19, 1, 'testAssertThatHousesAndFlatsDropdownListContainsValue')
-data.setCell(19, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(19, 3, 3315);
-data.setCell(20, 0, 20)
-data.setCell(20, 1, 'testIsItemFromHorizontalListVisible')
-data.setCell(20, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(20, 3, 2458);
-data.setCell(21, 0, 21)
-data.setCell(21, 1, 'testIsItemFromHorizontalListVisible')
-data.setCell(21, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(21, 3, 2428);
-data.setCell(22, 0, 22)
-data.setCell(22, 1, 'testIsItemFromHorizontalListVisible')
-data.setCell(22, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(22, 3, 1843);
-data.setCell(23, 0, 23)
-data.setCell(23, 1, 'testIsItemFromHorizontalListVisible')
-data.setCell(23, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(23, 3, 1801);
-data.setCell(24, 0, 24)
-data.setCell(24, 1, 'testAssertThatHousesAndFlatsDropdownListContainsValue')
-data.setCell(24, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(24, 3, 1712);
-data.setCell(25, 0, 25)
-data.setCell(25, 1, 'testIsItemFromHorizontalListVisible')
-data.setCell(25, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(25, 3, 1702);
-data.setCell(26, 0, 26)
-data.setCell(26, 1, 'testIsItemFromHorizontalListVisible')
-data.setCell(26, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(26, 3, 1679);
-data.setCell(27, 0, 27)
-data.setCell(27, 1, 'testIsItemFromHorizontalListVisible')
-data.setCell(27, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(27, 3, 1637);
-data.setCell(28, 0, 28)
-data.setCell(28, 1, 'testIsItemFromHorizontalListVisible')
-data.setCell(28, 2, 'com.it_academy.page_object.testNg.OnlinerCatalogPageTest')
-data.setCell(28, 3, 1607);
-data.setCell(29, 0, 29)
-data.setCell(29, 1, 'testThatSushiProductFullNameNotEmpty')
-data.setCell(29, 2, 'com.it_academy.rest_api.APITest')
-data.setCell(29, 3, 1439);
-data.setCell(30, 0, 30)
-data.setCell(30, 1, 'testAssertThatHousesAndFlatsDropdownListHasSize')
-data.setCell(30, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(30, 3, 1161);
-data.setCell(31, 0, 31)
-data.setCell(31, 1, 'testAssertThatCarMarketDropdownListHasSize')
-data.setCell(31, 2, 'com.it_academy.page_object.testNg.OnlinerHeaderPageTest')
-data.setCell(31, 3, 948);
-data.setCell(32, 0, 32)
-data.setCell(32, 1, 'testThatSushiProductKeyNotEmpty')
-data.setCell(32, 2, 'com.it_academy.rest_api.APITest')
-data.setCell(32, 3, 454);
-data.setCell(33, 0, 33)
-data.setCell(33, 1, 'testThatSushiProductIdNotEmpty')
-data.setCell(33, 2, 'com.it_academy.rest_api.APITest')
-data.setCell(33, 3, 352);
-data.setCell(34, 0, 34)
-data.setCell(34, 1, 'testThatSushiProductNameNotEmpty')
-data.setCell(34, 2, 'com.it_academy.rest_api.APITest')
-data.setCell(34, 3, 350);
-window.suiteTableData['Parallel_Testing_Suite']= { tableData: data, tableDiv: 'times-div-Parallel_Testing_Suite'}
+data.setCell(15, 1, 'testIsItemFromHorizontalListVisible')
+data.setCell(15, 2, 'com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest')
+data.setCell(15, 3, 2995);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
-              <div id="times-div-Parallel_Testing_Suite">
-              </div> <!-- times-div-Parallel_Testing_Suite -->
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Parallel_Testing_Suite" class="panel">
+        <div panel-name="reporter-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Parallel Testing Suite</span>
+            <span class="header-content">Reporter output for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Parallel_Testing_Suite" class="panel">
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Parallel_Testing_Suite" class="panel">
+        <div panel-name="chronological-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerHeaderPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">testOpenBrowser(chrome, false)</span>
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerCatalogPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">openBrowser(firefox, false)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">42 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.rest_api.APITest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testThatAllFilteredProductsHasNamePrefixFromValue</span>
-                <span class="method-start">22 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testThatSushiProductFullNameNotEmpty</span>
-                <span class="method-start">5103 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testThatSushiProductIdNotEmpty</span>
-                <span class="method-start">6544 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerCatalogPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testAssertThatAllItemsMinPriceVisible</span>
-                <span class="method-start">6709 ms</span>
+                <span class="method-start">4511 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.rest_api.APITest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testThatSushiProductKeyNotEmpty</span>
-                <span class="method-start">6897 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testThatSushiProductNameNotEmpty</span>
-                <span class="method-start">7352 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerHeaderPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatCarMarketDropdownListContainsValue(Минск)</span>
-                <span class="method-start">11256 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatCarMarketDropdownListContainsValue(Гомель)</span>
-                <span class="method-start">16354 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatCarMarketDropdownListContainsValue(Брест)</span>
-                <span class="method-start">21579 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatCarMarketDropdownListContainsValue(Opel)</span>
-                <span class="method-start">28989 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerCatalogPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testAssertThatAllItemsQuantityVisible</span>
-                <span class="method-start">37915 ms</span>
+                <span class="method-start">52289 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerHeaderPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatCarMarketDropdownListContainsValue(Kawasaki)</span>
-                <span class="method-start">40971 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatCarMarketDropdownListHasSize</span>
-                <span class="method-start">58285 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerCatalogPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testAssertThatAllItemsTitlesVisible</span>
-                <span class="method-start">58696 ms</span>
+                <span class="method-start">111978 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerHeaderPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle</span>
-                <span class="method-start">59235 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle</span>
-                <span class="method-start">69716 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerCatalogPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testIsItemFromHorizontalListVisible(Электроника)</span>
-                <span class="method-start">71728 ms</span>
+                <span class="method-start">155328 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testIsItemFromHorizontalListVisible(Компьютеры и сети)</span>
-                <span class="method-start">74160 ms</span>
+                <span class="method-start">158325 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testIsItemFromHorizontalListVisible(Бытовая техника)</span>
-                <span class="method-start">75799 ms</span>
+                <span class="method-start">161413 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testIsItemFromHorizontalListVisible(Стройка и ремонт)</span>
-                <span class="method-start">77503 ms</span>
+                <span class="method-start">164600 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testIsItemFromHorizontalListVisible(Дом и сад)</span>
-                <span class="method-start">79347 ms</span>
+                <span class="method-start">168684 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerHeaderPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatHousesAndFlatsDropdownListContainsValue(Минск)</span>
-                <span class="method-start">79629 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatHousesAndFlatsDropdownListContainsValue(Гомель)</span>
-                <span class="method-start">81342 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatHousesAndFlatsDropdownListContainsValue(2-комнатные)</span>
-                <span class="method-start">84659 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerCatalogPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testIsItemFromHorizontalListVisible(Авто и)</span>
-                <span class="method-start">86701 ms</span>
+                <span class="method-start">172860 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testIsItemFromHorizontalListVisible(Красота и спорт)</span>
-                <span class="method-start">89160 ms</span>
+                <span class="method-start">177820 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testIsItemFromHorizontalListVisible(Детям и мамам)</span>
-                <span class="method-start">90768 ms</span>
+                <span class="method-start">182587 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerHeaderPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testAssertThatHousesAndFlatsDropdownListContainsValue(3-комнатные)</span>
-                <span class="method-start">91002 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerCatalogPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testIsItemFromHorizontalListVisible(Работа и офис)</span>
-                <span class="method-start">92570 ms</span>
+                <span class="method-start">187579 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testIsItemFromVerticalListVisible(Ноутбуки, компьютеры, мониторы)</span>
-                <span class="method-start">94250 ms</span>
+                <span class="method-start">193068 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerHeaderPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testAssertThatHousesAndFlatsDropdownListContainsValue($)</span>
-                <span class="method-start">97969 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerCatalogPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testIsItemFromVerticalListVisible(Комплектующие)</span>
-                <span class="method-start">99651 ms</span>
+                <span class="method-start">204125 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testIsItemFromVerticalListVisible(Сетевое оборудование)</span>
-                <span class="method-start">104563 ms</span>
+                <span class="method-start">215779 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerHeaderPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testAssertThatHousesAndFlatsDropdownListHasSize</span>
-                <span class="method-start">105991 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">close</span>
-                <span class="method-start">107154 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.it_academy.page_object.testNg.OnlinerCatalogPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testIsItemFromVerticalListVisible(Хранение данных)</span>
-                <span class="method-start">110219 ms</span>
+                <span class="method-start">226868 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">close</span>
-                <span class="method-start">115085 ms</span>
+                <span class="method-start">238090 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

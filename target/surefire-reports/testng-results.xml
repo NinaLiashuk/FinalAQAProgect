@@ -1,215 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="35" passed="35" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="12" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-09T19:55:31 MSK" name="Parallel Testing Suite" finished-at="2022-08-09T19:57:26 MSK" duration-ms="115155">
+  <suite started-at="2022-08-10T15:11:54 MSK" name="Surefire suite" finished-at="2022-08-10T15:15:52 MSK" duration-ms="238119">
     <groups>
     </groups>
-    <test started-at="2022-08-09T19:55:31 MSK" name="API tests" finished-at="2022-08-09T19:55:39 MSK" duration-ms="7776">
-      <class name="com.it_academy.rest_api.APITest">
-        <test-method signature="testThatAllFilteredProductsHasNamePrefixFromValue()[pri:0, instance:com.it_academy.rest_api.APITest@61ae0d43]" started-at="2022-08-09T19:55:31 MSK" name="testThatAllFilteredProductsHasNamePrefixFromValue" finished-at="2022-08-09T19:55:36 MSK" duration-ms="4876" status="PASS">
+    <test started-at="2022-08-10T15:11:54 MSK" name="Surefire test" finished-at="2022-08-10T15:15:52 MSK" duration-ms="238119">
+      <class name="com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:11:54 MSK" name="setUp" finished-at="2022-08-10T15:11:54 MSK" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testThatAllFilteredProductsHasNamePrefixFromValue -->
-        <test-method signature="testThatSushiProductFullNameNotEmpty()[pri:0, instance:com.it_academy.rest_api.APITest@61ae0d43]" started-at="2022-08-09T19:55:36 MSK" name="testThatSushiProductFullNameNotEmpty" finished-at="2022-08-09T19:55:38 MSK" duration-ms="1439" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThatSushiProductFullNameNotEmpty -->
-        <test-method signature="testThatSushiProductIdNotEmpty()[pri:0, instance:com.it_academy.rest_api.APITest@61ae0d43]" started-at="2022-08-09T19:55:38 MSK" name="testThatSushiProductIdNotEmpty" finished-at="2022-08-09T19:55:38 MSK" duration-ms="352" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThatSushiProductIdNotEmpty -->
-        <test-method signature="testThatSushiProductKeyNotEmpty()[pri:0, instance:com.it_academy.rest_api.APITest@61ae0d43]" started-at="2022-08-09T19:55:38 MSK" name="testThatSushiProductKeyNotEmpty" finished-at="2022-08-09T19:55:38 MSK" duration-ms="454" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThatSushiProductKeyNotEmpty -->
-        <test-method signature="testThatSushiProductNameNotEmpty()[pri:0, instance:com.it_academy.rest_api.APITest@61ae0d43]" started-at="2022-08-09T19:55:38 MSK" name="testThatSushiProductNameNotEmpty" finished-at="2022-08-09T19:55:39 MSK" duration-ms="350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThatSushiProductNameNotEmpty -->
-      </class> <!-- com.it_academy.rest_api.APITest -->
-    </test> <!-- API tests -->
-    <test started-at="2022-08-09T19:55:31 MSK" name="Parallel Tests chrome" finished-at="2022-08-09T19:57:18 MSK" duration-ms="107224">
-      <class name="com.it_academy.page_object.testNg.OnlinerHeaderPageTest">
-        <test-method is-config="true" signature="testOpenBrowser(java.lang.String,boolean)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:55:31 MSK" name="testOpenBrowser" finished-at="2022-08-09T19:55:42 MSK" duration-ms="11253" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOpenBrowser -->
-        <test-method signature="testAssertThatCarMarketDropdownListContainsValue(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:55:42 MSK" name="testAssertThatCarMarketDropdownListContainsValue" data-provider="car-market-params" finished-at="2022-08-09T19:55:47 MSK" duration-ms="5096" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Минск]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatCarMarketDropdownListContainsValue -->
-        <test-method signature="testAssertThatCarMarketDropdownListContainsValue(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:55:47 MSK" name="testAssertThatCarMarketDropdownListContainsValue" data-provider="car-market-params" finished-at="2022-08-09T19:55:53 MSK" duration-ms="5223" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Гомель]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatCarMarketDropdownListContainsValue -->
-        <test-method signature="testAssertThatCarMarketDropdownListContainsValue(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:55:53 MSK" name="testAssertThatCarMarketDropdownListContainsValue" data-provider="car-market-params" finished-at="2022-08-09T19:56:00 MSK" duration-ms="7410" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Брест]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatCarMarketDropdownListContainsValue -->
-        <test-method signature="testAssertThatCarMarketDropdownListContainsValue(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:56:00 MSK" name="testAssertThatCarMarketDropdownListContainsValue" data-provider="car-market-params" finished-at="2022-08-09T19:56:12 MSK" duration-ms="11980" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Opel]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatCarMarketDropdownListContainsValue -->
-        <test-method signature="testAssertThatCarMarketDropdownListContainsValue(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:56:12 MSK" name="testAssertThatCarMarketDropdownListContainsValue" data-provider="car-market-params" finished-at="2022-08-09T19:56:29 MSK" duration-ms="17312" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kawasaki]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatCarMarketDropdownListContainsValue -->
-        <test-method signature="testAssertThatCarMarketDropdownListHasSize()[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:56:29 MSK" name="testAssertThatCarMarketDropdownListHasSize" finished-at="2022-08-09T19:56:30 MSK" duration-ms="948" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatCarMarketDropdownListHasSize -->
-        <test-method signature="testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle()[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:56:30 MSK" name="testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle" finished-at="2022-08-09T19:56:41 MSK" duration-ms="10480" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatDropdownListIsDisplayedWhenMouseOnCarMarketTitle -->
-        <test-method signature="testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle()[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:56:41 MSK" name="testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle" finished-at="2022-08-09T19:56:51 MSK" duration-ms="9912" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatDropdownListIsDisplayedWhenMouseOnHousesAndFlatsTitle -->
-        <test-method signature="testAssertThatHousesAndFlatsDropdownListContainsValue(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:56:51 MSK" name="testAssertThatHousesAndFlatsDropdownListContainsValue" data-provider="houses-and-flats-params" finished-at="2022-08-09T19:56:52 MSK" duration-ms="1712" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Минск]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatHousesAndFlatsDropdownListContainsValue -->
-        <test-method signature="testAssertThatHousesAndFlatsDropdownListContainsValue(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:56:52 MSK" name="testAssertThatHousesAndFlatsDropdownListContainsValue" data-provider="houses-and-flats-params" finished-at="2022-08-09T19:56:56 MSK" duration-ms="3315" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Гомель]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatHousesAndFlatsDropdownListContainsValue -->
-        <test-method signature="testAssertThatHousesAndFlatsDropdownListContainsValue(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:56:56 MSK" name="testAssertThatHousesAndFlatsDropdownListContainsValue" data-provider="houses-and-flats-params" finished-at="2022-08-09T19:57:02 MSK" duration-ms="6342" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2-комнатные]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatHousesAndFlatsDropdownListContainsValue -->
-        <test-method signature="testAssertThatHousesAndFlatsDropdownListContainsValue(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:57:02 MSK" name="testAssertThatHousesAndFlatsDropdownListContainsValue" data-provider="houses-and-flats-params" finished-at="2022-08-09T19:57:09 MSK" duration-ms="6966" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3-комнатные]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatHousesAndFlatsDropdownListContainsValue -->
-        <test-method signature="testAssertThatHousesAndFlatsDropdownListContainsValue(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:57:09 MSK" name="testAssertThatHousesAndFlatsDropdownListContainsValue" data-provider="houses-and-flats-params" finished-at="2022-08-09T19:57:17 MSK" duration-ms="8020" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[$]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatHousesAndFlatsDropdownListContainsValue -->
-        <test-method signature="testAssertThatHousesAndFlatsDropdownListHasSize()[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:57:17 MSK" name="testAssertThatHousesAndFlatsDropdownListHasSize" finished-at="2022-08-09T19:57:18 MSK" duration-ms="1161" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAssertThatHousesAndFlatsDropdownListHasSize -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.it_academy.page_object.testNg.OnlinerHeaderPageTest@318c68d5]" started-at="2022-08-09T19:57:18 MSK" name="close" finished-at="2022-08-09T19:57:18 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- com.it_academy.page_object.testNg.OnlinerHeaderPageTest -->
-    </test> <!-- Parallel Tests chrome -->
-    <test started-at="2022-08-09T19:55:31 MSK" name="Parallel Tests firefox" finished-at="2022-08-09T19:57:26 MSK" duration-ms="115155">
-      <class name="com.it_academy.page_object.testNg.OnlinerCatalogPageTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String,boolean)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:55:31 MSK" name="openBrowser" finished-at="2022-08-09T19:55:38 MSK" duration-ms="6707" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:11:54 MSK" name="openBrowser" finished-at="2022-08-10T15:11:58 MSK" duration-ms="4445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="testAssertThatAllItemsMinPriceVisible()[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:55:38 MSK" name="testAssertThatAllItemsMinPriceVisible" finished-at="2022-08-09T19:56:09 MSK" duration-ms="31204" status="PASS">
+        <test-method signature="testAssertThatAllItemsMinPriceVisible()[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:11:58 MSK" name="testAssertThatAllItemsMinPriceVisible" finished-at="2022-08-10T15:12:46 MSK" duration-ms="47675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAssertThatAllItemsMinPriceVisible -->
-        <test-method signature="testAssertThatAllItemsQuantityVisible()[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:56:09 MSK" name="testAssertThatAllItemsQuantityVisible" finished-at="2022-08-09T19:56:30 MSK" duration-ms="20780" status="PASS">
+        <test-method signature="testAssertThatAllItemsQuantityVisible()[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:12:46 MSK" name="testAssertThatAllItemsQuantityVisible" finished-at="2022-08-10T15:13:46 MSK" duration-ms="59679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAssertThatAllItemsQuantityVisible -->
-        <test-method signature="testAssertThatAllItemsTitlesVisible()[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:56:30 MSK" name="testAssertThatAllItemsTitlesVisible" finished-at="2022-08-09T19:56:43 MSK" duration-ms="13031" status="PASS">
+        <test-method signature="testAssertThatAllItemsTitlesVisible()[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:13:46 MSK" name="testAssertThatAllItemsTitlesVisible" finished-at="2022-08-10T15:14:29 MSK" duration-ms="43344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAssertThatAllItemsTitlesVisible -->
-        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:56:43 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-09T19:56:45 MSK" duration-ms="2428" status="PASS">
+        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:14:29 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-10T15:14:32 MSK" duration-ms="2995" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -220,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromHorizontalListVisible -->
-        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:56:45 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-09T19:56:47 MSK" duration-ms="1637" status="PASS">
+        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:14:32 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-10T15:14:35 MSK" duration-ms="3087" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -231,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromHorizontalListVisible -->
-        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:56:47 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-09T19:56:48 MSK" duration-ms="1702" status="PASS">
+        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:14:35 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-10T15:14:38 MSK" duration-ms="3186" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -242,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromHorizontalListVisible -->
-        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:56:48 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-09T19:56:50 MSK" duration-ms="1843" status="PASS">
+        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:14:38 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-10T15:14:42 MSK" duration-ms="4083" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromHorizontalListVisible -->
-        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:56:50 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-09T19:56:58 MSK" duration-ms="7353" status="PASS">
+        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:14:42 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-10T15:14:47 MSK" duration-ms="4174" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -264,7 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromHorizontalListVisible -->
-        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:56:58 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-09T19:57:00 MSK" duration-ms="2458" status="PASS">
+        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:14:47 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-10T15:14:52 MSK" duration-ms="4958" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -275,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromHorizontalListVisible -->
-        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:57:00 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-09T19:57:02 MSK" duration-ms="1607" status="PASS">
+        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:14:52 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-10T15:14:56 MSK" duration-ms="4766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,7 +104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromHorizontalListVisible -->
-        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:57:02 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-09T19:57:04 MSK" duration-ms="1801" status="PASS">
+        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:14:56 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-10T15:15:01 MSK" duration-ms="4991" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -297,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromHorizontalListVisible -->
-        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:57:04 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-09T19:57:05 MSK" duration-ms="1679" status="PASS">
+        <test-method signature="testIsItemFromHorizontalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:15:01 MSK" name="testIsItemFromHorizontalListVisible" data-provider="horizontal-categories-params" finished-at="2022-08-10T15:15:07 MSK" duration-ms="5488" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -308,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromHorizontalListVisible -->
-        <test-method signature="testIsItemFromVerticalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:57:05 MSK" name="testIsItemFromVerticalListVisible" data-provider="vertical-list-params" finished-at="2022-08-09T19:57:11 MSK" duration-ms="5400" status="PASS">
+        <test-method signature="testIsItemFromVerticalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:15:07 MSK" name="testIsItemFromVerticalListVisible" data-provider="vertical-list-params" finished-at="2022-08-10T15:15:18 MSK" duration-ms="10667" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -316,10 +134,83 @@
               </value>
             </param>
           </params>
+          <exception class="com.codeborne.selenide.ex.ElementNotFound">
+            <message>
+              <![CDATA[Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133716538.0.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133716538.0.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133716538.0.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133716538.0.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementNotFound -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromVerticalListVisible -->
-        <test-method signature="testIsItemFromVerticalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:57:11 MSK" name="testIsItemFromVerticalListVisible" data-provider="vertical-list-params" finished-at="2022-08-09T19:57:16 MSK" duration-ms="4911" status="PASS">
+        <test-method signature="testIsItemFromVerticalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:15:18 MSK" name="testIsItemFromVerticalListVisible" data-provider="vertical-list-params" finished-at="2022-08-10T15:15:29 MSK" duration-ms="11249" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -327,10 +218,83 @@
               </value>
             </param>
           </params>
+          <exception class="com.codeborne.selenide.ex.ElementNotFound">
+            <message>
+              <![CDATA[Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133728311.1.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133728311.1.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133728311.1.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133728311.1.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementNotFound -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromVerticalListVisible -->
-        <test-method signature="testIsItemFromVerticalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:57:16 MSK" name="testIsItemFromVerticalListVisible" data-provider="vertical-list-params" finished-at="2022-08-09T19:57:21 MSK" duration-ms="5655" status="PASS">
+        <test-method signature="testIsItemFromVerticalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:15:30 MSK" name="testIsItemFromVerticalListVisible" data-provider="vertical-list-params" finished-at="2022-08-10T15:15:40 MSK" duration-ms="10698" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -338,10 +302,83 @@
               </value>
             </param>
           </params>
+          <exception class="com.codeborne.selenide.ex.ElementNotFound">
+            <message>
+              <![CDATA[Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133739371.2.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133739371.2.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133739371.2.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133739371.2.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementNotFound -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromVerticalListVisible -->
-        <test-method signature="testIsItemFromVerticalListVisible(java.lang.String)[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:57:21 MSK" name="testIsItemFromVerticalListVisible" data-provider="vertical-list-params" finished-at="2022-08-09T19:57:26 MSK" duration-ms="4865" status="PASS">
+        <test-method signature="testIsItemFromVerticalListVisible(java.lang.String)[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:15:41 MSK" name="testIsItemFromVerticalListVisible" data-provider="vertical-list-params" finished-at="2022-08-10T15:15:52 MSK" duration-ms="10837" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -349,14 +386,87 @@
               </value>
             </param>
           </params>
+          <exception class="com.codeborne.selenide.ex.ElementNotFound">
+            <message>
+              <![CDATA[Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133750625.3.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133750625.3.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133750625.3.png
+Page source: file:/C:/Users/Final_AQA_Progect/build/reports/tests/1660133750625.3.html
+Timeout: 4 s.
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.it_academy.ui_tests.OnlinerCatalogPage.crossToCategoryFromCatalog(OnlinerCatalogPage.java:25)
+at com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest.testIsItemFromVerticalListVisible(OnlinerCatalogPageTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: Element not found {$$(22 elements).findBy(text 'fhhjmm')}
+Expected: text 'fhhjmm'
+Timeout: 0 ms.
+at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:53)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementNotFound -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsItemFromVerticalListVisible -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.it_academy.page_object.testNg.OnlinerCatalogPageTest@3d299393]" started-at="2022-08-09T19:57:26 MSK" name="close" finished-at="2022-08-09T19:57:26 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest@4dde8976]" started-at="2022-08-10T15:15:52 MSK" name="close" finished-at="2022-08-10T15:15:52 MSK" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.it_academy.page_object.testNg.OnlinerCatalogPageTest -->
-    </test> <!-- Parallel Tests firefox -->
-  </suite> <!-- Parallel Testing Suite -->
+      </class> <!-- com.it_academy.ui_tests.testNg.OnlinerCatalogPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
